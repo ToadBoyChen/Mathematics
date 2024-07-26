@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.14)  26 JUL 2024 00:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.14)  26 JUL 2024 01:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Toby/Desktop/Maths/1st-Year/NSFFinal/NSFFinal.tex
-(c:/Users/Toby/Desktop/Maths/1st-Year/NSFFinal/NSFFinal.tex
+**"c:/Users/Toby/Desktop/Mathematics/Maths/1st-Year/NSF Final/NSFFinal.tex"
+(c:/Users/Toby/Desktop/Mathematics/Maths/1st-Year/NSF Final/NSFFinal.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
 (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -465,14 +465,14 @@ Package rerunfilecheck Info: File `NSFFinal.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  10007 strings out of 473903
- 152855 string characters out of 5727051
+ 152991 string characters out of 5727051
  1948908 words of memory out of 5000000
  32743 multiletter control sequences out of 15000+600000
  566278 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,79p,450b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,79p,465b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on NSFFinal.pdf (5 pages, 187227 bytes).
+Output written on NSFFinal.pdf (5 pages, 187246 bytes).
 PDF statistics:
  188 PDF objects out of 1000 (max. 8388607)
  24 named destinations out of 1000 (max. 500000)
