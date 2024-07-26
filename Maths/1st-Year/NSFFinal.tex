@@ -1,0 +1,195 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{geometry}
+\usepackage{array}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\geometry{a4paper, margin=1in}
+
+\title{Very Brief Number, Sets and Functions Sheet - Final Exam}
+\author{by Toby Chen}
+\date{\today}
+
+\begin{document}
+
+    \maketitle
+
+    \tableofcontents
+
+    \section{Notation}
+
+        \subsection{Summation}
+            The summation is a mathematical operation that adds up elements up to, and including a specified index.
+
+            \[\sum_{n = 0}^{m} f(n) = N\]
+
+            In most important cases we work with $m = \infty$.
+
+        \subsection{Product}
+            The product is a mathematical operation that multiplies up elements up to, and including a specified  index.
+
+            \[\prod_{n = 1}^{m} f(n) = N\]
+
+            It may make sense depending on $f(n)$ to start the product at $n=1$.
+
+            \subsubsection{Factorial}
+                The factorial is defined as,
+
+                \[m! = \prod_{n = 1}^{m}n\]
+
+    \section{Logic}
+        \subsection{A Statement}
+            A statement is a sentence which may exist on its own and is either true or false.
+
+        \subsection{Negation}
+            If $P$ is a statement, the negation of $P$ is not $P$, or that of is $P$ is false.\\
+
+            Take the example $x=2$. The negation is $x\neq 2$.
+
+        \subsection{Implication}
+            Suppose $P$ and $Q$ are statements. 'if $P$, then $Q$' is an implication, which is written $P \implies Q$.\\
+
+            We have a special case where if $P \implies Q$, and $P$ is true, then $Q$ may not be false. One should note that the implication, unlike our spoken language, does not imply a direction causation, e.g., 'I go to sleep $\implies$ Donald Trump assassination attempt'. It should be clear that there is no causation, however mathematically this statement holds.\\
+
+            An important table we should therefore observe is as follows,
+
+            \begin{center}
+                \begin{tabular}{|c|c|c|}
+                    \hline
+                    $P$ & $Q$ & $P \implies Q$ \\
+                    \hline
+                    true & true & true \\
+                    true & false & false \\
+                    false & true & true \\
+                    false & false & true \\
+                    \hline
+                \end{tabular}
+            \end{center}
+
+        \subsection{Quantifiers}
+            There are two special mathematical objects that allow us to construct statements involving a variable in a 'general statement'.\\
+
+            We can write '$n$ is even', however is has the implicit dependency on $n\in\mathbb{Z}$, so we must state this explicitly, '$n$ is even $\forall ~n \in \mathbb{Z}~$'. The symbol $\forall$, literally means 'for all', and is a universal quantifier. Note that the statement we constructed is false. 
+
+        \subsection{Converse and Contrapositive}
+            The converse of $P\implies Q$ is given by $Q \implies P$. The contrapositive of $P \implies Q$ is given by $\bar{Q} \implies \bar{P}$. \\
+
+            One should note that the contrapositive is the exact same thing as the normal statement, just 'rephrased'. 
+
+            \begin{center}
+                \begin{tabular}{|c|c|c|c|c|c|}
+                    \hline
+                    $P$ & $Q$ & $P \implies Q$ & $\bar{P}$ & $\bar{Q}$ & $\bar{Q} \implies \bar{P}$ \\
+                    \hline
+                    true & true & true & false & false & true \\
+                    true & false & false & false & true & false \\
+                    false & true & true & true & false & true \\
+                    false & false & true & true & true & true \\
+                    \hline
+                \end{tabular}
+            \end{center}
+
+    \section{Proof}
+         A proof is a logical argument that states a fact with 100\% certainty.\\
+
+         The first part of a proof sets the context. The second part creates statements which are linked through implications. We also make assumptions throughout, like '$n$ is even'. The last part is the conclusion.\\
+         
+         It maybe that to prove $P\implies Q$, we prove $P$, though to prove $P \iff Q$, one must prove $P$ and $Q$.\\
+
+         A special proof technique is proof via contrapositive. This refers to the proof technique where one changes and implication string to its contrapositive and then proves the contrapositive, and therefore proving the original statement.\\
+
+         \[(P \implies Q) \equiv (\bar{Q} \implies \bar{P})\]
+
+         An example may be the following statement $P$, 'Let $x$ be a positive number. If $x$ is irrational then $\sqrt{x}$ is irrational'. The contrapositive of $P$, which consists of two sub statements would be to prove '$\sqrt{x}$ is rational, then $x$ is rational'.\\
+         
+         Another special proof technique is proof by contradiction. This proof lies on the fact that if something isn't false it must be true. For undergo said proof one simply assumes the opposite of the statement, for example, '$P$ is true $\forall$ $Q$'. The contradiction statement would be '$P$ is false $\forall~ Q$'.\\
+
+         \subsection{Proof by Induction}
+            Proof by induction is used when proving a statement involving positive integers $n$.\\ 
+            
+            Suppose we want to prove a statement $P(n)~\forall~n\in\mathbb{Z}^+$, to prove via induction we,
+
+            \begin{description}
+                \item [Base Case] $P(1)$ is true.
+                \item [Inductive Step] If $n\geq 2$ and $P(n-1)$ (known as the inductive hypothesis) are true then $P(n)$ is true for all positive integer $n$.
+            \end{description}
+
+            One should note that this proof works via a string of implications which are all proven true by the last implication. Also, sometimes our proof may involve all non-negative integers (which in including zero). In this case our proof goes $P(n)\implies P(n+1)$, whereas we usually have $P(n-1) \implies P(n)$.\\
+
+            Its important to not confuse $P(n)$ as a number, but rather it is a statement that gives true or false.
+            
+        \subsection{Proof by Strong Induction}
+            This proof is [obviously] similar to proof by induction, however the difference shows in the following,
+
+            \begin{description}
+                \item [Base Case] $P(1)$ is true.
+                \item [Inductive Step] If $n\geq 2$ and $P(1), P(2), P(3), \dots, P(n-1)$ (known as the inductive hypothesis) are all true then $P(n)$ is true for all positive integer $n$.
+            \end{description} 
+
+            This proof is stronger because it allows us to assume more. Sometimes we may need more than one base case in order for strong induction to work.\\
+
+            Take the following example which uses the Fibonacci sequence, $F_n = F_{n-1} + F_{n-2}$ for $F_1 = F_2 = 1$.
+
+            \subsubsection{Theorem 1 - Example of strong induction}
+                Suppose $n$ is a positive integer. Then $F_n < 2^n$.\\
+                
+               \textit{Proof}
+
+                \begin{align*}
+                    &\text{Let } P(n) \text{ denote } F_n < 2^n,\\
+                    &\text{Our base case will be } P(1) : 1 < 2^1, \text{which is true}.\\
+                    &\text{Our other base case will be }  P(2) : 2 < 2^2, \text{which is true}.\\
+                    &\text{Our inductive step now follows, assuming that } n \geq 3 \text{ and that } P(n-2) \text{ and that } P(n-1) \text{ hold}.\\
+                    &\quad F_{n-2} < 2^{n-2} = \frac{2^n}{2^2},\quad F_{n-1} < 2^{n-1} = \frac{2^n}{2^1}.\\
+                    &\quad \text{Given that }F_{n-2} + F_{n-1} = F_n,\text{ by definition of the Fibonacci sequence},\\
+                    &\quad \text{We may state that } \frac{2^n}{2^2} + \frac{2^n}{2^1} = \frac{2^n}{2} = F_n < 2^n\\
+                    &\text{Its suffice to say that }P(n) \text{ hold for all }n & \square \\
+                \end{align*}
+
+    \section{Integers}
+        \textbf{Divisibility Within Naturals}: $d,n\in \mathbb{N}$. If $\exists~ k\in \mathbb{N}: n = dk, d\mid n$, else $\nexists~ k, d \nmid n$.\\
+
+        \textbf{Lemma 1 - Divisibility}: $a,b,c\in \mathbb{N}$. If $a\mid b$ and $b\mid c$ then $\exists~ a\mid c$.\\
+
+            Proof is trivial.\\
+
+        \textbf{Lemma 2 - Divisibility}: $a,b,c\in \mathbb{N} : a\mid b,~ a\mid c,~ b<c$. Then $a\mid (c-b)$.\\
+
+            \textit{Proof}
+
+            \begin{align*}
+                &\text{As by the definition, since }a\mid b, a\mid c\implies ~\exists~k,i\in \mathbb{N}: b = ak, c = ai.\\
+                &\text{It follows that }b - c = ak - ai = a(k - i).\text{ Remembering that } b < c \implies k < i \implies i-k\in \mathbb{N}.\\
+                &\quad\text{Given that } b < c,\text{ and that } c-b = a(i-k) \implies a\mid (c-b)&\square\\
+            \end{align*}
+
+        \subsection{Prime Numbers}
+            For $n\in \mathbb{N}$, $n$ is prime if $n>1$ and $n$ has no factors other than $1$ and $n$.\\
+
+            $n$ is composite if it is not prime.\\
+
+            \subsubsection{Lemma 3 - Fundamental Theorem of Arithmetic}
+                If $n \in \mathbb{N}$ and $n>1$, $n$ has at least one prime factor.\\
+
+                \textit{Proof}
+
+                \begin{align*}
+                    &\text{We will undergo proof by induction, so let }P(n) = \text{'} n\text{ has a prime factor'}.\\
+                    &\text{Let the base case be } P(2), text{ as case } 1 \text{ is already accounted for},\\
+                    &\quad P(2): 2\mid 2,\text{ which is true}.\\
+                    &\text{Let the inductive step state that } n \geq 3,\text{ and state that } P(2), P(3), \dots, P(n-1)\text{ are all true}.\\
+                    &\quad\text{If } n \text{is prime, }n\text{ is a factor of itself and so }P(n) \text{ holds},\\
+                    &\quad\text{Else if } n \text{ is not prime, it has a factor say }a: 1 < a < n,\\
+                    &\qquad\text{Because we assume }P(a), a\text{ has prime factor }p.\\
+                    &\qquad p\mid a, a \mid n \implies p\mid n.\\
+                    &\qquad\text{This implies that }n \text{ has prime factor }p,\text{ so }P(n) \text{ holds}. &\square\\
+                \end{align*}
+
+\end{document}
