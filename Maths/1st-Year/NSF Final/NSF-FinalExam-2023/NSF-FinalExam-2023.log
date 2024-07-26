@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.14)  26 JUL 2024 02:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.14)  26 JUL 2024 22:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -345,29 +345,36 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout4 = `NSF-FinalExam-2023.toc'.
 
 
+Overfull \hbox (22.38396pt too wide) detected at line 79
+[]
+ []
+
+
 
 [1
 
-{C:/Users/Toby/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (NSF-FinalExam-2023.aux)
+{C:/Users/Toby/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+
+[2] (NSF-FinalExam-2023.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
  ***********
 Package rerunfilecheck Info: File `NSF-FinalExam-2023.out' has not changed.
-(rerunfilecheck)             Checksum: 37921F60F666491B08581037DE4FB41E;106.
+(rerunfilecheck)             Checksum: 177C04122D72419A85D9FDEF81BA7236;212.
  ) 
 Here is how much of TeX's memory you used:
- 10173 strings out of 473903
- 156293 string characters out of 5727051
- 1957908 words of memory out of 5000000
- 32913 multiletter control sequences out of 15000+600000
+ 10176 strings out of 473903
+ 156319 string characters out of 5727051
+ 1965908 words of memory out of 5000000
+ 32914 multiletter control sequences out of 15000+600000
  567381 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,14n,79p,336b,440s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,14n,79p,336b,455s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on NSF-FinalExam-2023.pdf (1 page, 153357 bytes).
+Output written on NSF-FinalExam-2023.pdf (2 pages, 160623 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 500000)
- 9 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 102 PDF objects out of 1000 (max. 8388607)
+ 6 named destinations out of 1000 (max. 500000)
+ 17 words of extra memory for PDF output out of 10000 (max. 10000000)
 
