@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1722030377.50216 "c:/Users/Toby/Desktop/Mathematics/Maths/1st-Year/NSF Final/NSF-FinalExam-2023/NSF-FinalExam-2023.tex" "NSF-FinalExam-2023.pdf" "NSF-FinalExam-2023" 1722030378.99455 0
+["pdflatex"] 1722184179.95893 "c:/Users/Toby/Desktop/Mathematics/Maths/1st-Year/NSF Final/NSF-FinalExam-2023/NSF-FinalExam-2023.tex" "NSF-FinalExam-2023.pdf" "NSF-FinalExam-2023" 1722184181.39823 0
   "C:/Users/Toby/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1721955503 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Toby/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1720988123 24264286 e9deb630838263bc80694ea8c90fad99 ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/symbol/psyr.tfm" 1136772254 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -70,7 +70,6 @@
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/tex/latex/base/atbegshi-ltx.sty" 1719393830 2963 e56732bbb93cfa019febfd0c7eaf1d21 ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/tex/latex/base/atveryend-ltx.sty" 1719393830 2378 05fbb4f2b23b0e142f8cd3440c37e72e ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo" 1719393830 8448 358bf3de18513f057a13bdc6e6770c41 ""
-  "C:/Users/Toby/AppData/Local/Programs/MiKTeX/tex/latex/bbding/bbding.sty" 1469024579 7382 9b2f9a70c30e88d8bba0d20fcca8b94e ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty" 1601897756 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg" 1578053545 1104 7ac475a4e3466b0b43e138e9356bda83 ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty" 1578053545 42759 9cf6c5257b1bc7af01a58859749dd37a ""
@@ -95,11 +94,12 @@
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1718356376 14067 1383bd6ee23ab18ae0e796155404deb7 ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "NSF-FinalExam-2023.aux" 1722030378 380 cf465d53ddeb4b6d41defa59f90a1a96 "pdflatex"
-  "NSF-FinalExam-2023.out" 1722030378 212 177c04122d72419a85d9fdef81ba7236 "pdflatex"
-  "NSF-FinalExam-2023.tex" 1722030377 3089 6fd57fc18aa779de368d77cca909d5b6 ""
-  "NSF-FinalExam-2023.toc" 1722030378 136 f6b5f6424cbb87b1527faef9e282b720 "pdflatex"
-  "c:/Users/Toby/Desktop/Mathematics/Maths/1st-Year/NSF Final/NSF-FinalExam-2023/NSF-FinalExam-2023.tex" 1722030377 3089 6fd57fc18aa779de368d77cca909d5b6 ""
+  "C:/Users/Toby/Desktop/Mathematics/math-macros.sty" 1722182310 606 39303e5535a3e868474e30886b454700 ""
+  "NSF-FinalExam-2023.aux" 1722184181 491 3c54633571baf23d2ab096af20f11a27 "pdflatex"
+  "NSF-FinalExam-2023.out" 1722184181 328 3d19c33c6a33e6067af18ed5cfc823fa "pdflatex"
+  "NSF-FinalExam-2023.tex" 1722184175 5514 09a740701f91b42f697f67e235577ee0 ""
+  "NSF-FinalExam-2023.toc" 1722184181 206 377b4760a2b4454286a7ee222a23ec68 "pdflatex"
+  "c:/Users/Toby/Desktop/Mathematics/Maths/1st-Year/NSF Final/NSF-FinalExam-2023/NSF-FinalExam-2023.tex" 1722184175 5514 09a740701f91b42f697f67e235577ee0 ""
   (generated)
   "NSF-FinalExam-2023.aux"
   "NSF-FinalExam-2023.log"

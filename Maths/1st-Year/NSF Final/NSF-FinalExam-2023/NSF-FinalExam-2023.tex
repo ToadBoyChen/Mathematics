@@ -2,10 +2,8 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{geometry}
-\usepackage{pifont}
-\newcommand{\xmark}{\text{\ding{55}}}
+\input{C:/Users/Toby/Desktop/Mathematics/math-macros.sty} %Download the macros file locally onto machine.
 \usepackage{array}
-\usepackage{bbding}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks,
@@ -76,6 +74,38 @@
             &\text{(c) }f:\mathbb{Z}\rightarrow\mathbb{Z}, f(n) = 20n + 22.\\
             &\text{answer: given our definition of injectivity, }\forall~ m,n\in \mathbb{Z}, f(m) = 20m+22 = 20n + 22 = f(n) \implies m = n.\\
             &f:\mathbb{Z}\rightarrow\mathbb{Z}, f(n) = 20n + 22 \text{ is injective.} & \checkmark\\
+            &\\
+            &\text{(d) }f:\Z\rightarrow\Z, f(n) = n(n+1).\\
+            &\text{answer: Given that }\all a,b\in A\text{ if }f(a) = f(b) \implies a = b,\\
+            &\text{Let }n, m\in \Z : f(n) = f(m) \equiv n(n+1) = m(m+1) \equiv m = n \implies f\text{ is injective}.&\xmark\\
+            &\\
+            &\quad\text{Real answer: counter proof by counter example, }f(-1) = 0 = f(0) = 0(0 + 1) = 0.\\
+            &\\
+            &\text{(e) }f:\power(\Q) \rightarrow \power(\Q), f(a) = a\cup\{1,2,3\}\\
+            &\text{answer: First lets understand the function. We are working within the power series of the rationals.}\\
+            &\text{This means that we are working with sets and not numbers. }\\
+            &f(A) = A\cup\{1,2,3\}\text{ takes the intersection of two sets within }\Q.\\
+            &\text{Recalling that for }f\text{ to be injective, }\all a,b\in A \text{ if }f(a) = f(b) \implies a = b,\\
+            &\text{Let }n = \{1\}, m = \{2\}: f(n) = \{1,2,3\}, f(m) = \{1,2,3\} \not{\implies} n = m\text{ as } \{1\} \neq \{2\}.\\
+            &\text{This suggests that }f \text{ is not injective.} &\checkmark\\
+            &\\
+            &\text{(f) }f:\N\times\N\rightarrow\Z\times\Z, f(m,n) = (m^2 + n^2, m^2 - n^2).\\
+            &\text{answer: Given }\all a,b\in A \text{ if }f(a) = f(b) \implies a = b,\\
+            &f(1,1) = (2, 0), f(-1, -1) = (2, 0) \text{ but } (1,1)\neq (-1,-1).\\
+            &\text{By such logic, }f \text{ is not injective.}&\xmark\\
+            &\\
+            &\quad\text{Real answer: Notice the domain is }\N\times\N\text{ which means that }(-1,-1)\notin \N\times\N.\\
+            &\quad\text{This is the mistake made. If we notice any input is a positive integer, the proof follows, }\\
+            &\quad n,m, p, q \in \N\times\N : f(n,m) = f(p,q).\\
+            &\quad \implies m^2 + n^2 = p^2 + q^2 \text{ and }m^2 - n^2 = p^2 - q^2.\\
+            &\quad m^2 = p^2 - q^2 + n^2 \implies p^2 - q^2 + n^2 + n^2 = p^2 + q^2 \implies n^2 = q^2 \text{ or } n = q.\\
+            &\quad \text{Given }n = q, m^2 = p^2 \implies m = q.\text{ Index positions match, and we are only concerned with positive inputs.}\\
+            &\quad\text{Given }m = p, n = q \impliedby f(n,m) = f(p,q),~ f\text{ is injective.}\\
+        \end{align*}
+
+    \section{Question Three}
+        \begin{align*}
+            &\\
         \end{align*}
 
 \end{document}

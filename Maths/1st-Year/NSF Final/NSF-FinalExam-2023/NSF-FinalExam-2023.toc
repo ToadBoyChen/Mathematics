@@ -1,2 +1,3 @@
 \contentsline {section}{\numberline {1}Question One}{1}{section.1}%
-\contentsline {section}{\numberline {2}Question Two}{2}{section.2}%
+\contentsline {section}{\numberline {2}Question Two}{3}{section.2}%
+\contentsline {section}{\numberline {3}Question Three}{4}{section.3}%
