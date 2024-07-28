@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.14)  28 JUL 2024 23:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.14)  29 JUL 2024 00:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -118,13 +118,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen157
 \Gm@layoutvoffset=\dimen158
 \Gm@dimlist=\toks23
- (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:/Users/Toby/Desktop/Mathematics/math-macros.sty
-
-LaTeX Warning: You have requested package `',
-               but the package provides `math-macros'.
-
-Package: math-macros 
-(C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\pifont.sty
+ (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:/Users/Toby/Desktop/Mathematics/math-macros.sty (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\pifont.sty
 Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
 LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
  (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
@@ -284,15 +278,15 @@ LaTeX Font Info:    ... okay on input line 21.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* h-part:(L,W,R)=(115.63243pt, 366.24301pt, 115.63243pt)
+* v-part:(T,H,B)=(115.63243pt, 613.78198pt, 115.63243pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=452.9679pt
-* \textheight=700.50687pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-37.0pt
+* \textwidth=366.24301pt
+* \textheight=613.78198pt
+* \oddsidemargin=43.36244pt
+* \evensidemargin=43.36244pt
+* \topmargin=6.36244pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -359,38 +353,48 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 [1
 
 {C:/Users/Toby/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (41.53581pt too wide) detected at line 104
+Overfull \hbox (128.2607pt too wide) detected at line 104
 []
  []
 
 
 
 [2]
-Overfull \hbox (42.01277pt too wide) detected at line 111
-[]
- []
-
-
 
 [3]
-Overfull \hbox (41.81404pt too wide) detected at line 177
-[]
- []
+Overfull \vbox (58.08104pt too high) has occurred while \output is active []
 
 
 
 [4]
-Overfull \hbox (47.19267pt too wide) detected at line 213
+Overfull \hbox (128.73766pt too wide) detected at line 111
+[]
+ []
+
+
+Overfull \hbox (128.53893pt too wide) detected at line 177
 []
  []
 
 
 
 [5]
+Overfull \hbox (133.91756pt too wide) detected at line 213
+[]
+ []
+
+
 
 [6]
+Overfull \hbox (46.70914pt too wide) detected at line 240
+[]
+ []
 
-[7] (NSF Final Exam 2023.aux)
+
+
+[7]
+
+[8] (NSF Final Exam 2023.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
@@ -400,16 +404,16 @@ Package rerunfilecheck Info: File `"NSF Final Exam 2023".out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  10089 strings out of 473903
- 155072 string characters out of 5727051
+ 155071 string characters out of 5727051
  1966908 words of memory out of 5000000
- 32814 multiletter control sequences out of 15000+600000
+ 32813 multiletter control sequences out of 15000+600000
  568079 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,14n,79p,338b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on "NSF Final Exam 2023.pdf" (7 pages, 191066 bytes).
+Output written on "NSF Final Exam 2023.pdf" (8 pages, 191612 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
+ 146 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

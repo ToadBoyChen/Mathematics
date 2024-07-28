@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.14)  28 JUL 2024 23:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.14)  29 JUL 2024 00:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -278,15 +278,15 @@ LaTeX Font Info:    ... okay on input line 21.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* h-part:(L,W,R)=(115.63243pt, 366.24301pt, 115.63243pt)
+* v-part:(T,H,B)=(115.63243pt, 613.78198pt, 115.63243pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=452.9679pt
-* \textheight=700.50687pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-37.0pt
+* \textwidth=366.24301pt
+* \textheight=613.78198pt
+* \oddsidemargin=43.36244pt
+* \evensidemargin=43.36244pt
+* \topmargin=6.36244pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -367,6 +367,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
  []
 
 
+
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
@@ -377,8 +379,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--102
  []
 
 
-
-[2]
 Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
@@ -409,6 +409,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--117
  []
 
 
+
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
@@ -424,13 +426,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--143
  []
 
 
+Overfull \hbox (74.02145pt too wide) detected at line 155
+[]
+ []
 
-[3]
+
 Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
 
+
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
@@ -443,6 +450,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
 Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
+ []
+
+
+Overfull \hbox (63.77159pt too wide) detected at line 172
+[]
  []
 
 
@@ -461,8 +473,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--181
  []
 
 
+Overfull \hbox (56.21674pt too wide) detected at line 194
+[]
+ []
 
-[4]
+
 
 [5] (NSF Final Notes.aux)
  ***********
@@ -473,15 +488,15 @@ Package rerunfilecheck Info: File `"NSF Final Notes".out' has not changed.
 (rerunfilecheck)             Checksum: 36B10799CC1C2B9142E049308BC17DE5;2299.
  ) 
 Here is how much of TeX's memory you used:
- 10088 strings out of 473903
- 154994 string characters out of 5727051
- 1948908 words of memory out of 5000000
- 32807 multiletter control sequences out of 15000+600000
+ 10089 strings out of 473903
+ 154996 string characters out of 5727051
+ 1943908 words of memory out of 5000000
+ 32808 multiletter control sequences out of 15000+600000
  566968 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,10n,79p,488b,454s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "NSF Final Notes.pdf" (5 pages, 187246 bytes).
+Output written on "NSF Final Notes.pdf" (5 pages, 187629 bytes).
 PDF statistics:
  188 PDF objects out of 1000 (max. 8388607)
  24 named destinations out of 1000 (max. 500000)
