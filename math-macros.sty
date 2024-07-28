@@ -1,18 +1,25 @@
-\ProvidesPackage{mymathsymbols}[2024/07/28 A custom package for common mathematical symbols]
+\ProvidesPackage{math-macros}  % Name of your package
 
-\RequirePackage{amsfonts} % This package is needed for \mathbb
-\RequirePackage{pifont}   % This package is needed for \ding
+\RequirePackage{amsmath}  % Needed for \mathbb
+\RequirePackage{pifont}   % Needed for \ding
 
 % Define custom commands
-\newcommand{\xmark}{\text{\ding{55}}}
+\newcommand{\xmark}{\ding{55}}
 \newcommand{\R}{\ensuremath{\mathbb{R}}}
 \newcommand{\C}{\ensuremath{\mathbb{C}}}
 \newcommand{\Z}{\ensuremath{\mathbb{Z}}}
-\newcommand{\Q}{\mathbb{Q}}
-\newcommand{\N}{\mathbb{N}}
-\newcommand{\F}{\mathbb{F}}
-\newcommand{\W}{\mathbb{W}}
-\newcommand{\all}{~\forall~}
-\newcommand{\power}{\mathcal{P}}
+\newcommand{\Q}{\ensuremath{\mathbb{Q}}}
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\F}{\ensuremath{\mathbb{F}}}
+\newcommand{\W}{\ensuremath{\mathbb{W}}}
+\newcommand{\all}{\ensuremath{\forall~}}
+\newcommand{\power}{\ensuremath{\mathcal{P}}}
+\newcommand{\inn}{\ensuremath{\in \N}}
+\newcommand{\inz}{\ensuremath{\in \Z}}
+\newcommand{\inr}{\ensuremath{\in \R}}
+\newcommand{\rel}{\ensuremath{\mathcal{R}}}
+\newcommand{\AND}{\text{ and }}
+\newcommand{\OR}{\text{ or }}
+\newcommand{\LET}{\text{ let }}
 
-\endinput
+\endinput  % End of package file

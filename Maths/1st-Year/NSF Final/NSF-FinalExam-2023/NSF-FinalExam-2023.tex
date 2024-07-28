@@ -179,6 +179,44 @@
     \section{Question Four}
         \begin{align*}
             &\\
+            &\text{(a) Suppose }d, n \in \N.\text{ What does it mean for }d \mid n?\\
+            &\text{answer: }d\mid n \impliedby k\in\N: n = dk. & \checkmark\\
+            &\\
+            &\text{(b) Suppose }p, q\text{ are prime and that }p \neq q. \text{how many divisors does } p^3 \times q^3\text{ have?}\\
+            &\text{answer: }q^3\text{ has divisors }1, q, q^2, q^3 \text{ and } p^3\text{ has divisors }1, p, p^2, p^3.\\
+            &\text{We may deduce that the number of divisors is the number of possible combinations or the divisors of }p \text{ and }q.\\
+            &\text{This is }4^2 = 16\text{ divisors.} & \checkmark\\
+            &\\
+            &\text{(c) Use Euclid's algorithm to find }\gcd(198, 82).\\
+            &\text{answer: Given }a = qb + r \implies 198 = 2(82) + 34,\\
+            &\qquad 82 = 2(32) + 18,\\
+            &\qquad 32 = 1(18) + 14,\\
+            &\qquad 18 = 1(14) + 4,\\
+            &\qquad 14 = 3(4) + 2,\\
+            &\qquad 4 = 2(2) + 0 \implies \gcd(198, 82) = 2. &\checkmark\\
+            &\\
+            &\text{(d) Suppose }a, b\in\N \text{ and that } a\mid b. \text{ Prove that }a^2\mid b^2.\\
+            &\text{answer: }a\mid b\implies b = ak\ a\in\N.~a^2 \mid b^2 \implies b^2 = a^2k,\\
+            &k = \frac{b^2}{a^2} \implies b = a\frac{b^2}{a^2} \implies \frac{1}{b} = \frac{1}{a} \implies a = b & \xmark\\
+            &\\
+            &\quad\text{Real answer: Given }b = ak \text{ from }a\mid b\text{, we get }b^2 = a^2k^2, k^2\inn\qquad\square\\
+            &\quad\text{The error arises from the fact that I used }b = ak \text{ and } b^2 = a^2k,\text{ but the k's are different.}\\
+            &\\
+            &\text{(e) Define the relation }\rel \text{ on }\N : a\rel b \impliedby a\mid 2b. \text{ Is }\rel \text{ transitive?}\\
+            &\text{answer: A transitive relation is given by }a\rel b\text{ and } b \rel c \implies a\rel c.\\
+            &\text{Let } 2b = ak_1 : a\rel b \AND\LET 2c = bk_2 : b \rel c.\\
+            &a \rel c \impliedby a \mid 2c \text{ which yields } a\mid bk_2.\\
+            &\text{Its already given that }bk_2\inn\implies \rel \text{ is transitive.}& \xmark\\
+            &\\
+            &\quad\text{Unsure as to why I stopped the proof/ disproof, }bk_2\text{ depends on } 2b=ak_1\text{ where } ak_1 \text{ is a multiple of 2,}\\
+            &\quad\text{which may not be true. Therefore, }\rel \text{ is not transitive.}\\
+        \end{align*}
+    
+    \section{Question Five}
+        \begin{align*}
+            &\\
+            &\text{(a) }\\
+            &\text{answer: }\\
         \end{align*}
 
 \end{document}
