@@ -25,16 +25,52 @@
     \tableofcontents
 
     \section{Question One}
-    Assume the number of buses passing through a certain stop in 1 hour follows a Poisson distribution with average $\lambda= 5.5$. Calculate the probability that at least one bus turns up in 1 hour.\\
+        Assume the number of buses passing through a certain stop in 1 hour follows a Poisson distribution with average $\lambda= 5.5$. Calculate the probability that at least one bus turns up in 1 hour.\\
 
-    \textit{Answer}: Recall that the Poisson distribution is (?). \xmark\\
+        \textit{Answer}: Recall that the Poisson distribution is (?). \xmark\\
 
-    \textit{Real Answer}: the Poisson distribution given $\bar{x} = \mu = \E(X) = \lambda$, and the $\po(X = k)$ is given by
+        \textit{Real Answer}: the Poisson distribution given $\bar{x} = \mu = \E(X) = \lambda$, and the $\po(X = k)$ is given by
 
-    \[\frac{\lambda^ke^{-\lambda}}{k!}.\]
+        \[\frac{\lambda^ke^{-\lambda}}{k!}.\]
 
-    One should consider the fact that the events are assumed to be independent. In light of this, given $\lambda = 5.5$ and $\po(X \leq 1) = \po(X = 1) + \po(X = 0)$, we get,
+        One should consider the fact that the events are assumed to be independent. In light of this, given $\lambda = 5.5$ and $\po(X \geq 1) = 1 - \po(X = 0)$, we get,
 
-    \[\]
+        \[1 - \frac{5.5^0 e^{-5.5}}{0!} = 0.995913... \approx 0.995,~ 99.5\%\]
+
+    \section{Question Two}
+        You roll a fair dice once
+
+        \subsection{Q2 a}
+            Calculate the probability of getting the number six.\\
+
+            \textit{Answer}:
+
+            \[\po(X = 6) = \frac{|\{6\}|}{|\Omega|} = \frac{|\{6\}|}{|\{1,2,3,4,5,6\}|} = \frac{1}{6}.~\checkmark\]
+
+        \subsection{Q2 b}
+            You roll a fair dice n times. Calculate the probability of getting at least one six.\\
+
+            \textit{Answer}: To begin our investigation, let $n = 1 : \po(X = 6) = \frac{1}{6},~ n=2 : \po(X = 2) = \frac{1}{36},~ n=3: \po(X = 6) = \frac{1}{216}$, etc. We can clearly see a climbing in the powers of six where the index linearly increases with $n$.\\ 
+            
+            We may therefore deduce that for $n$-times, $\po(X=6) = 6^{-n}$ \xmark.\\
+
+            \textit{Real answer}: I simply misunderstood the question. They ask at least one six, implying that there maybe more than 1 six. Therefore, we don't want to calculate $\po(X = 6)$, as It's actually not relevant to the question. We want to calculate $\po(\text{At least 1 six})$. We could cleverly set $Y =$ (number of sixes) and then state $\po(Y \geq 1) = 1 - \po(Y = 0)$.\\
+
+            \[1 - \po(Y = 0) = 1 - \left( \frac{5}{6} \right)^n.\]
+
+        \subsection{Q2 c}
+            Find the values of $n$ such that this probability is greater than or equal to $50\%$.\\
+
+            \textit{Answer}: given our formula $1 - \left( \frac{5}{6} \right)^n$, we want,
+
+            \begin{align*}
+                1 - \left( \frac{5}{6} \right)^n &\geq 0.5,\\
+                \left( \frac{5}{6} \right)^n&\geq 0.5,\\
+                \ln\left( \left( \frac{5}{6} \right)^n \right)&\geq \ln(0.5),\\
+                n&\geq\frac{\ln(0.5)}{\ln\left( \left( \frac{5}{6} \right)\right)},\\
+                n&\geq3.8016 \approx 3.8 \approx 4. ~\checkmark
+            \end{align*}
+
+            
 
 \end{document}
