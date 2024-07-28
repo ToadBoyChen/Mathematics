@@ -1,7 +1,7 @@
-PWD c:\Users\Toby\Desktop\Mathematics\Maths\1st-Year\NSF Final\NSF-FinalExam-2023
+PWD c:\Users\Toby\Desktop\Mathematics\Maths\1st-Year\NSF Final\NSF Final Notes
 INPUT C:\Users\Toby\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Toby\Desktop\Mathematics\Maths\1st-Year\NSF Final\NSF-FinalExam-2023\NSF-FinalExam-2023.tex
-OUTPUT NSF-FinalExam-2023.log
+INPUT c:\Users\Toby\Desktop\Mathematics\Maths\1st-Year\NSF Final\NSF Final Notes\NSF Final Notes.tex
+OUTPUT NSF Final Notes.log
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
@@ -104,10 +104,10 @@ INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniq
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\NSF-FinalExam-2023.aux
-INPUT .\NSF-FinalExam-2023.aux
-INPUT NSF-FinalExam-2023.aux
-OUTPUT NSF-FinalExam-2023.aux
+INPUT .\NSF Final Notes.aux
+INPUT .\NSF Final Notes.aux
+INPUT NSF Final Notes.aux
+OUTPUT NSF Final Notes.aux
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
@@ -122,14 +122,14 @@ INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT .\NSF-FinalExam-2023.out
-INPUT .\NSF-FinalExam-2023.out
-INPUT NSF-FinalExam-2023.out
-INPUT NSF-FinalExam-2023.out
-OUTPUT NSF-FinalExam-2023.pdf
-INPUT .\NSF-FinalExam-2023.out
-INPUT .\NSF-FinalExam-2023.out
-OUTPUT NSF-FinalExam-2023.out
+INPUT .\NSF Final Notes.out
+INPUT .\NSF Final Notes.out
+INPUT NSF Final Notes.out
+INPUT NSF Final Notes.out
+OUTPUT NSF Final Notes.pdf
+INPUT .\NSF Final Notes.out
+INPUT .\NSF Final Notes.out
+OUTPUT NSF Final Notes.out
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
@@ -157,15 +157,10 @@ INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symb
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT .\NSF-FinalExam-2023.toc
-INPUT .\NSF-FinalExam-2023.toc
-INPUT NSF-FinalExam-2023.toc
+INPUT .\NSF Final Notes.toc
+INPUT .\NSF Final Notes.toc
+INPUT NSF Final Notes.toc
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-OUTPUT NSF-FinalExam-2023.toc
-INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\base\omscmr.fd
-INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\base\omscmr.fd
-INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\base\omscmr.fd
-INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
@@ -174,14 +169,13 @@ INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symb
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\zapfding\pzdr.tfm
-INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\zapfding\pzdr.tfm
+OUTPUT NSF Final Notes.toc
+INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\Toby\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti7.tfm
-INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti7.tfm
-INPUT NSF-FinalExam-2023.aux
-INPUT .\NSF-FinalExam-2023.out
-INPUT .\NSF-FinalExam-2023.out
+INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+INPUT NSF Final Notes.aux
+INPUT .\NSF Final Notes.out
+INPUT .\NSF Final Notes.out
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
@@ -210,5 +204,3 @@ INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\sy
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
-INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\type1\urw\zapfding\uzdr.pfb
-INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\type1\urw\zapfding\uzdr.pfb

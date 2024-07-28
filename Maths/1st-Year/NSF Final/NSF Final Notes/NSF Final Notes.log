@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.14)  28 JUL 2024 21:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.14)  28 JUL 2024 23:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Toby/Desktop/Mathematics/Maths/1st-Year/NSF Final/NSF-FinalExam-2023/NSF-FinalExam-2023.tex"
-(c:/Users/Toby/Desktop/Mathematics/Maths/1st-Year/NSF Final/NSF-FinalExam-2023/NSF-FinalExam-2023.tex
+**"c:/Users/Toby/Desktop/Mathematics/Maths/1st-Year/NSF Final/NSF Final Notes/NSF Final Notes.tex"
+(c:/Users/Toby/Desktop/Mathematics/Maths/1st-Year/NSF Final/NSF Final Notes/NSF Final Notes.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
 (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -118,13 +118,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen157
 \Gm@layoutvoffset=\dimen158
 \Gm@dimlist=\toks23
- (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:/Users/Toby/Desktop/Mathematics/math-macros.sty
-
-LaTeX Warning: You have requested package `',
-               but the package provides `math-macros'.
-
-Package: math-macros 
-(C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\pifont.sty
+ (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:/Users/Toby/Desktop/Mathematics/math-macros.sty (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\pifont.sty
 Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
 LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
  (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
@@ -254,8 +248,8 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 14.
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count295
 \l__pdf_internal_box=\box56
-) (NSF-FinalExam-2023.aux)
-\openout1 = `NSF-FinalExam-2023.aux'.
+) (NSF Final Notes.aux)
+\openout1 = `"NSF Final Notes.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -333,9 +327,9 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 \everyMPtoPDFconversion=\toks26
 )) (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 21.
- (NSF-FinalExam-2023.out) (NSF-FinalExam-2023.out)
+ (NSF Final Notes.out) (NSF Final Notes.out)
 \@outlinefile=\write3
-\openout3 = `NSF-FinalExam-2023.out'.
+\openout3 = `"NSF Final Notes.out"'.
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
  (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -344,72 +338,152 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
  (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (NSF-FinalExam-2023.toc)
+) (NSF Final Notes.toc)
 \tf@toc=\write4
-\openout4 = `NSF-FinalExam-2023.toc'.
+\openout4 = `"NSF Final Notes.toc"'.
 
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 28.
- (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
-File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
 
 
 [1
 
 {C:/Users/Toby/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (41.53581pt too wide) detected at line 104
-[]
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
  []
 
 
 
 [2]
-Overfull \hbox (42.01277pt too wide) detected at line 111
-[]
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
  []
 
 
 
 [3]
-Overfull \hbox (41.81404pt too wide) detected at line 177
-[]
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+
  []
 
 
 
 [4]
-Overfull \hbox (47.19267pt too wide) detected at line 213
-[]
- []
 
-
-
-[5]
-
-[6]
-
-[7] (NSF-FinalExam-2023.aux)
+[5] (NSF Final Notes.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
  ***********
-Package rerunfilecheck Info: File `NSF-FinalExam-2023.out' has not changed.
-(rerunfilecheck)             Checksum: 4009B96F3B31F5E464527CFB63CC5442;550.
+Package rerunfilecheck Info: File `"NSF Final Notes".out' has not changed.
+(rerunfilecheck)             Checksum: 36B10799CC1C2B9142E049308BC17DE5;2299.
  ) 
 Here is how much of TeX's memory you used:
- 10086 strings out of 473903
- 154922 string characters out of 5727051
- 1966908 words of memory out of 5000000
- 32811 multiletter control sequences out of 15000+600000
- 568079 words of font info for 73 fonts, out of 8000000 for 9000
+ 10088 strings out of 473903
+ 154994 string characters out of 5727051
+ 1948908 words of memory out of 5000000
+ 32807 multiletter control sequences out of 15000+600000
+ 566968 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,14n,79p,336b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on NSF-FinalExam-2023.pdf (7 pages, 191066 bytes).
+ 75i,10n,79p,488b,454s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "NSF Final Notes.pdf" (5 pages, 187246 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 188 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
