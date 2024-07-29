@@ -71,6 +71,152 @@
                 n&\geq3.8016 \approx 3.8 \approx 4. ~\checkmark
             \end{align*}
 
-            
+    \section{Question Three}
+        Given the random variables $X$ and $Y$ with pmf of,
+
+        \begin{align*}
+            \po(X = k)& = \begin{cases}
+                \frac{1}{2},&k = 0,\\
+                \frac{1}{2},&k = 3,\\
+                0,&k\notin\{0, 3\}.\\
+            \end{cases}\\
+            &\\
+            \po(Y = k)& = \begin{cases}
+                \frac{1}{3},&k=-1,\\
+                \frac{2}{3},&k=1,\\
+                0,&k\notin\{-1, 1\}.\\
+            \end{cases}\\
+        \end{align*}
+
+        \subsection{Q3 a}
+            Provide an example of a joint probability distribution for $X$ and $Y$ such that $X$ and $Y$ are independent. You can use a table as below:
+
+            \begin{center}
+                \begin{tabular}{|c|c|c|c|}
+                    \hline
+                    & $X = 0$ & $X = 3$ & marginal\\
+                    \hline
+                    $Y = -1$ & ? & ? & $\po(Y = -1) = 1/3$\\
+                    \hline
+                    $Y = 1$ & ? & ? & $\po(Y = 1) = 2/3$\\
+                    \hline
+                    marginal & $\po(X = 0) = 1/2$ & \po(X = 3) = 1/2 & \\
+                    \hline
+                \end{tabular}
+            \end{center}
+
+            \textit{Answer}: 
+
+            \begin{center}
+                \begin{tabular}{|c|c|c|c|}
+                    \hline
+                    & $X = 0$ & $X = 3$ & marginal\\
+                    \hline
+                    $Y = -1$ & $\po(Y = -1)\cap\po(X = 0)$ & $\po(Y = -1)\cap\po(X = 3)$ & $\po(Y = -1) = 1/3$\\
+                    \hline
+                    $Y = 1$ & $\po(Y = 1)\cap\po(X = 0)$ & $\po(Y = 1)\cap\po(X = 3)$ & $\po(Y = 1) = 2/3$\\
+                    \hline
+                    marginal & $\po(X = 0) = 1/2$ & \po(X = 3) = 1/2 & \\
+                    \hline
+                \end{tabular}\\
+                $\downarrow$
+            \end{center}
+
+            \begin{center}
+                \begin{tabular}{|c|c|c|c|}
+                    \hline
+                    & $X = 0$ & $X = 3$ & marginal\\
+                    \hline
+                    $Y = -1$ & $1/3 \times 1/2$ & $1/3 \times 1/2$ & $\po(Y = -1) = 1/3$\\
+                    \hline
+                    $Y = 1$ & $2/3 \times 1/2$ & $2/3 \times 1/2$ & $\po(Y = 1) = 2/3$\\
+                    \hline
+                    marginal & $\po(X = 0) = 1/2$ & \po(X = 3) = 1/2 & \\
+                    \hline
+                \end{tabular}\\
+                $\downarrow$
+            \end{center}
+
+            \begin{center}
+                \begin{tabular}{|c|c|c|c|}
+                    \hline
+                    & $X = 0$ & $X = 3$ & marginal\\
+                    \hline
+                    $Y = -1$ & $1/6$ & $1/6$ & $\po(Y = -1) = 1/3$\\
+                    \hline
+                    $Y = 1$ & $1/3$ & $1/3$ & $\po(Y = 1) = 2/3$\\
+                    \hline
+                    marginal & $\po(X = 0) = 1/2$ & \po(X = 3) = 1/2 & \\
+                    \hline
+                \end{tabular} \checkmark
+            \end{center}
+
+        \subsection{Q3 b}
+            Provide an example of a joint probability distribution for $X$ and $Y$ such that $X$ and $Y$ are not independent.
+
+            \begin{center}
+                \begin{tabular}{|c|c|c|c|}
+                    \hline
+                    & $X = 0$ & $X = 3$ & marginal\\
+                    \hline
+                    $Y = -1$ & $1/6 + 0.01$ & $1/6 + 0.01$ & $\po(Y = -1) = 1/3$\\
+                    \hline
+                    $Y = 1$ & $1/3 + 0.01$ & $1/3 + 0.01$ & $\po(Y = 1) = 2/3$\\
+                    \hline
+                    marginal & $\po(X = 0) = 1/2$ & \po(X = 3) = 1/2 & \\
+                    \hline
+                \end{tabular} \checkmark
+            \end{center}
+
+    \section{Question Four}
+        The average size of a foreign exchange transaction in a certain trading desk is $\$25.1m$ with a standard deviation of $\$15m$. We assume these numbers follow a normal distribution. We are concerned about the impact of a new regulatory reporting procedure that kicks in for transactions larger than $\$50m$. Calculate the probability that a given transaction will be larger than $\$50m$.\\
+
+        \textit{Answer}: Given that the distribution of the transactions follows a normal distribution, $\mathcal{N}(\mu,\sigma^2)$, we are concerned with the pdf of,
+
+        \[f(x) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}.\]
+
+        We want to find, quote, "the probability that a given transaction will be larger than $\$50m$", which translates mathematically to $\po(X > 50m) = 1 - \po(X \leq 50m)$.\\
+
+        We can use therefore, the cdf of $\mathcal{N}(\mu,\sigma^2)$ to find $\po(X \leq 50m)$, which is, 
+
+        \[\Phi\left( \frac{x - \mu}{ \sigma} \right).\]
+
+        We therefore want to calculate $\Phi((50m - 25.1m)/(15m)) = \Phi(1.66)$. One must look this value up in the given table of values, where one obtains $0.9515$.\\
+
+        Given that $\po(X \leq 50) = 0.9515$, $\po(X > 50m) = 1-0.9515 = 0.0485 \approx 0.05$. The chance of a transaction being larger than $\$50m$ is $5\%$. \checkmark\checkmark\checkmark
+
+    \section{Question Five}
+        This question demonstrates a special feature of the exponential distribution that makes it suitable for applications to waiting times. It is called the memoryless property. This is a characteristic of the Exponential random variable that might or might not correspond to what happens in real-life applications.\\
+
+        Assume that $X\sim\text{Exp}(\lambda)$ models the wait time in hours to the next bus if on average there are $\lambda$ busses per hour.
+
+        \subsection{Q5 a}
+            $x_1\in\R_+$, what is the probability that no buses arrived before time $x_1$, i.e., calculate $\po(X > x_1) = 1 - \po(X \leq x_1)$.\\
+
+            \textit{Answer}: The cdf, as needed, of the exponential distribution is $1 - e^{-\lambda x}$.\\
+
+            We are working with the general $x_1$, and with then general $\lambda$, so $1 - (1-e^{\lambda x_1}) = 1 - 1 + e^{\lambda x_1} = e^{\lambda x_1}$. \xmark\\
+
+            \textit{Real answer}: Forgot the negative sign for lambda, $e^{-\lambda x_1}$.
+
+        \subsection{Q5 b}
+            For $0 < x_1 < x_2$, calculate the probability that the bus will arrive between the two, i.e., $\po(x_1 < X < x_2)$.\\
+
+            \textit{Answer}: $\po(x_1 < X < x_2) = \po(X > x_1) + \po(X < x_2) = (1-\po(X \leq x_1)) + \po(X < x_2)$.\\
+
+            Once again referring to the cdf, that being $1 - e^{-\lambda x}$, we get the following,
+
+            \[\left( 1 - (1 - e^{-\lambda x_1}) \right) + (1 - e^{-\lambda x_2}) = 1 + e^{-\lambda x_1} - e^{-\lambda x_2}.~\xmark\]
+
+            \textit{Real answer}: In fact we may use some basic logic to state that $\po(x_1 < X < x_2) = \text{cdf}(x_2) - \text{cdf}(x_1)$. Following this, we get $(1 - e^{-\lambda x_2}) - (1 - e^{-\lambda x_1}) = e^{-\lambda x_1} - e^{-\lambda x_2}$.
+
+        \subsection{Q5 c}
+            Calculate $\po(X < x_2 | X > x_1)$.\\
+
+            \textit{Answer}: $\po(X < x_2 | X > x_1) = (\po(X < x_2)\cap \po(X > x_1))/(\po(X < x_2) \cup \po(X > x_1))$. This yields, 
+
+    \section{Question Six}
+
+    \section{Question Seven}
 
 \end{document}
