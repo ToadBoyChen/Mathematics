@@ -2,6 +2,8 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{geometry}
+\usepackage{microtype}
+\hbadness=99999
 \input{C:/Users/Toby/Desktop/Mathematics/math-macros.sty} %Download the macros file locally onto machine.
 \usepackage{array}
 \usepackage{hyperref}
@@ -23,5 +25,47 @@
     \maketitle
 
     \tableofcontents
+
+    \section{Sequences}
+        \sub{Q1}
+            Find the formula for the $n$-th term of the sequence $1, -4, 9, -16, 25$.\\
+            
+            \ans Given $1, -4, 9, -16, 25$, we can clearly see that it's a sequence of squares with an alternating negative sign,\\
+
+            \[a_n = (-1)^{n - 1}(n^2),\FOR n\geq 1.\]
+
+        \sub{Q2}
+            Find a formula for the nth term of the sequence in terms of $n$, where the sequence is $1,0,1,0,1,\dots$.\\
+
+            \ans The sequence is a periodic one which oscillates from 1 to 0. Let us create a table of values to assist in this,
+
+            \begin{center}
+                \begin{tabular}{|c|c|c|c|c|c|}
+                    \hline
+                    1 & 2 & 3 & 4 & 5 & 6 \\
+                    \hline
+                    1 & 0 & 1 & 0 & 1 & 0 \\
+                    \hline
+                    odd & even & odd & even & odd & even\\
+                    \hline
+                \end{tabular}
+            \end{center}
+
+            We can see that when $n$ is even, we get a 0, and else is 1. This implies we will have a formula making use of $n/2$.\\
+
+            Let $a_n = n/2 : a_n = 1/2, 1, 3/2, 2, 5/2, \dots$. It seems that we get closer to our desired result if we let $a_n = (n+1)/2 : a_n = 1, 3/2, 2, 5/2, 3, \dots$.\\
+
+            I have just realized that the most suitable function would be $\sin(x)$, 
+
+            \[a_n = \sin\left( \frac{n\pi}{2} \right)^2.\]
+
+        \sub{Q3}
+        Determine if the sequence $\left\{ a_n \right\}$ converges or diverges. Find the limit if the sequence converges. The sequence is $a_n = 4 + (0.3)^n$\\
+
+        \ans 
+
+        \begin{align*}
+            &\\
+        \end{align*}
 
 \end{document}
