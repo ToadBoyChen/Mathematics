@@ -25,6 +25,165 @@
     \tableofcontents
 
     \section{Question Two}
+        You roll two fair dice.
+
+        \subsection{Q2 a}
+            Write the resulting sample space, $\sample$ and the number of elements, $|\sample|$. (You are allowed to provide a few elements only and use ellipsis ‘. . . ’ to indicate the rest if the pattern is clear)\\
+            
+            \textit{Answer}: $\sample = \left\{ (1,1), (1,2), \dots, (1,6), (2,1), (2,2), \dots, (2,6), \dots, (6,6) \right\}$ such that $|\sample| = 36$.
+
+        \subsection{Q2 b}
+            Write the subset of $\sample$ corresponding to the event "the sum of the two scores is 2".\\
+
+            \textit{Answer}: $\left\{ (1,1) \right\} \subset \sample$.
+
+        \subsection{Q2 c}
+            Write the subset of $\sample$ corresponding to the event "the sum of the two scores is 4".\\
+
+            \textit{Answer}: $\left\{ (1,3), (3,1), (2,2) \right\} \subset \sample$.\\
+
+            Assuming all possible outcomes are all as likley,
+
+        \subsection{Q2 d}
+            Calculate the probability that the sum of the two scores is 2.\\
+
+            \textit{Answer}: $\po(X = 2)$ for $X$ given by the sum of both rolls, $\po(X = 2) = |\left\{ (1,1) \right\}|/|\sample| = 1/36$.
+
+        \subsection{Q2 e}
+            Calculate the probability that the sum of the two scores is 4.\\
+
+            \textit{Answer}: $\po(X = 4)$ for $X$ given by the sum of both rolls, $\po(X = 4) = |\left\{ (1,3),(3,1),(2,2) \right\}|/|\sample| = 3/36 = 1/12$.
+
+    \section{Question Three}
+        You are arranging five customer presentations, to take place from 10am to 12:30pm, each 30 minutes. As part of the process you need to randomly select 5 customers from a pool of 10 and then assign them to the five available timeslots. So, for example, if the set of customers is $\{$JPM, BoA, MS, GS, CITI, HSBC, BNP, UBS, BARC, SOCGEN$\}$ one such selection could be $($CITI, BARC, JPM, GS, BoA$)$ which means that the order of presentations would be 10:00 CITI, 10:30 BARC, 11:00 JPM, 11:30 GS, and 12:00 BoA.
+    
+        \subsection{Q3 a}
+            How many possible configurations could result?\\
+
+            \textit{Answer}: If we want 5 from 10, there are $10 \times 9 \times 8 \times 7 \times 6$ choices which is $30240$.
+
+        \subsection{Q3 b}
+            What is the probability that your favourite customer (assume there is only one) will be selected and appear last in the presentation process.\\
+
+            \ans We want to calculate $\po(X_5 = \text{ fav customer } | X_1, X_2, X_3, X_4 \neq \text{ fav customer})$.\\
+            
+            We could maybe think of this problem instead as what's the chance their picked, and what's the chance their in the last position.
+
+            \[\frac{9}{10} \times \frac{8}{9} \times \frac{7}{8} \times \frac{6}{7} \times \frac{1}{6} = 0.1\]
+
+    \section{Question Four}
+        A student wishes to apply to an internship programme in a Data Analytics company that requires students to have passed two Probability and Statistics exams. Taking the second exam has as prerequisite having passed the first exam. If they fail the first exam then they will not be allowed to take the second one. The probability that they pass the first exam is 80\%. If they pass the first exam then the conditional probability that they pass the second is 90\%. Find the probability that they pass both the first and second exam. Hint: You may wish to use the notation $A = \{\text{passing the 1st exam}\}$ and $B = \{\text{passing the 2nd exam}\}$ and try to identify in the discussion some probabilities associated to $A$ and $B$.\\
+
+        \ans Given that $\po(X_1 = \text{ pass }) = 80\%$, where $X_n$ defines whether a student passes an exam, and that $\po(X_2 = \text{ pass }) = 90\%$, we must find the conditional probability that $\po(X_2 = \text{ pass } | X_1 = \text{ pass })$. This yields,
+
+        \[\po(X_2 = \text{ pass } | X_1 = \text{ pass }) = \frac{\po(X_2 \text{ pass }) \cap \po(X_1 \text{ pass })}{\po(X_1 \text{ pass })}.\]
+
+        We may state that the chance is $0.8 \times 0.9 = 0.72$.
+
+    \section{Question Five}
+        Consider the following game,
+        \begin{itemize}
+            \item You toss a fair coin twice.
+            \item You define your profit and loss (P and L) to be the result of
+            \begin{itemize}
+                \item Writing the sign “+” if the first coin toss is head. And the sign “–” for tail.
+                \item Follow the sign above with a 1 if the second coin is head or 0 for tail.
+                \item You identify the results +0 and -0 with zero.
+            \end{itemize}
+        \end{itemize}
+
+        So for example, If the first coin is head and the second is tail, then your P and L is +0 which is £0. If the first coin is tail and the second is head, then your P and L is -£1 (a loss of £1). You play the game above once and call X your P and L.\\
+
+        \sub{Q5 a}
+            Write down the sample space of the coin tosses.\\
+
+            \ans
+
+            \[\sample = \left\{ (+, 0), (+, 1), (-, 0), (-, 1) \right\}.\]
+
+            There is no mirrored elements in this sample space. In fact, it maybe more sensible to define $\sample$ as,
+
+            \[\sample = \left\{ +0, +1, -0, -1 \right\}.\]
+
+        \sub{Q5 b}
+            Write down the possible values of $X$.\\
+
+            \ans 
+
+            \[X = \begin{cases}
+                0& \IF x = (+, 0) \OR x = (-, 0),\\
+                -1& \IF x = (-, 1),\\
+                1& \IF x = (+, 1).
+            \end{cases}\]
+
+        \sub{Q5 c}
+            Write down the pmf of $X$,\\
+
+            \ans
+
+            \[\po(X = x) = \begin{cases}
+                \frac{1}{2}& \IF x = \pm0,\\
+                \frac{1}{4}& \IF x = (-, 1),\\
+                \frac{1}{4}& \IF x = (+, 1).
+            \end{cases}\]
+
+            You play the game above twice and call $Y$ your total P and L.
+
+        \sub{Q5 d}
+            Write down the sample space of the coin tosses for the two games. (You are allowed to provide a few elements only and use ellipsis '. . . ' to indicate the rest if the pattern is clear)\\
+
+            \ans  $\sample_Y = \left\{ hhhh, hhht, hhtt, httt, tttt, thhh, tthh, ttth, htht, thth, htth, thht, hthh, hhth, thtt, ttht\right\}$.
+
+        \sub{Q5 e}
+            Write down the pmf of $Y$.\\
+
+            \ans
+
+            \[\po(Y = y) = \begin{cases}
+                0& \IF y \in \left\{ htht, hhth, thhh, tttt, ttht, tthh \right\},\\
+                1&\IF y\in \left\{ hhht, hhtt, tthh, hthh \right\},\\
+                -1&\IF y\in \left\{ ttth, htth, thht, thtt \right\},\\
+                2&\IF y\in \left\{ hhhh \right\},\\
+                -2&\IF y\in \left\{ thth \right\}.
+            \end{cases}\]
+
+    \section{Question Six}
+        Consider a fair tetrahedral dice (with four sides) where the result can be any of the numbers $1, 2, 3 \OR 4$ all with the same probability. You roll it twice and call $X$ the maximum score. In the questions below, the answer should not involve any variables (only numerical quantities), but you are not required to evaluate it
+
+        \sub{Q6 a}
+            Describe the sample space of the dice rolls, $\sample$.\\
+
+            \ans $\sample = \left\{ (1,1), (1,2), \dots, (1,4), (2,1), (2,2)\dots, (4,4) \right\}$.
         
+        \sub{Q6 b}
+            What values can $X$ take?\\
+
+            \ans $X\in\sample$. That meaning $1,2,3\OR4$ twice. 
+
+        \sub{Q6 c}
+            Calculate the pmf of $X$.\\
+
+            \ans 
+
+            \[\all x\in \sample, \po(X = x ) = \begin{cases}
+                \frac{1}{16}&\IF x \in \left\{ (1,1) \right\},\\
+                \frac{3}{16}&\IF x\in\left\{ (1,2), (2,1), (2,2) \right\},\\
+                \frac{5}{16}&\IF x\in\left\{ (1,3), (3,1), (2,3), (3,2), (3,3) \right\},\\
+                \frac{7}{16}&\IF x\in \left\{ (1,4), (4,1), (2,4), (4,2), (3,4), (4,3), (4,4) \right\}.
+            \end{cases}\]
+
+        \sub{Q6 d}
+            Calculate $\E(X)$.\\
+
+            \ans 
+
+            \[\E(X) = \frac{1(1) + 3(2) + 5(3) + 7(4)}{16} = 3.12.\]
+
+        \sub{Q6 e}
+            Calculate the Variance.
+
+            \ans
+
+            \[\text{Var}(X) = \E(X)^2 + \E(X^2) = \frac{55}{64}\]
 
 \end{document}
