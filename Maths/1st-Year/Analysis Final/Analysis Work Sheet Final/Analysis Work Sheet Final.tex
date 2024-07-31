@@ -60,12 +60,148 @@
             \[a_n = \sin\left( \frac{n\pi}{2} \right)^2.\]
 
         \sub{Q3}
-        Determine if the sequence $\left\{ a_n \right\}$ converges or diverges. Find the limit if the sequence converges. The sequence is $a_n = 4 + (0.3)^n$\\
+            Determine if the sequence $\left\{ a_n \right\}$ converges or diverges. Find the limit if the sequence converges. The sequence is $a_n = 4 + (0.3)^n$\\
 
-        \ans 
+            \ans 
 
-        \begin{align*}
-            &\\
-        \end{align*}
+            \begin{align*}
+                &\lim_{n\rightarrow \infty} 4 + 0.3^n = 4\\
+            \end{align*}
+
+        \sub{Q4}
+            Determine if the sequence $\left\{ a_n \right\}$ converges or diverges. Find the limit if the sequence converges. The sequence is $a_n = \left( \frac{n+6}{7n} \right)\left( 1 - \frac{6}{n} \right)$.\\
+
+            \ans 
+
+            \begin{align*}
+                \text{Given }&a_n = \left( \frac{n+6}{7n} \right)\left( 1 - \frac{6}{n} \right),\\
+                &\lim_{n \rightarrow \infty} \left( \frac{n+6}{7n} \right)\left( 1 - \frac{6}{n} \right) = \lim_{n \rightarrow \infty}\left( \frac{n+6}{7n} \right)\lim_{n \rightarrow \infty} \left( 1- \frac{6}{n} \right),\\
+                &= \lim_{n\rightarrow\infty}\left( \frac{n+6}{7n} \right)(1) = \lim_{n\rightarrow\infty}\left( \frac{\frac{d}{dn}(n+6)}{\frac{d}{dn}(7n)} \right),\\
+                &= \lim_{n\rightarrow\infty} \left( \frac{1}{7} \right) = \frac{1}{7}.\\
+            \end{align*}
+
+        \sub{Q5}
+            Determine if the sequence $\left\{ a_n \right\}$ converges or diverges. Find the limit if the sequence converges. The sequence is $a_n = \sqrt[n]{4^n n}$.\\
+
+            \ans 
+
+            \begin{align*}
+                &\lim_{n\rightarrow\infty}\sqrt[n]{4^n n} = L,\\
+                &\ln(L) = \ln\left(\lim_{n\rightarrow\infty}(4^n n)^{1/n}\right) = \lim_{n\rightarrow\infty}\left( \ln\left( 4^nn \right)^{\frac{1}{n}} \right),\\
+                &\ln(L) = \lim_{n\rightarrow\infty}\frac{1}{n} \ln\left( 4^n \right) + \ln(n) = \lim_{n\rightarrow\infty}\frac{1}{n}(n\ln(4) + \ln(n)),\\
+                &\ln(L) = \frac{\lim_{n\rightarrow\infty}(n\ln(4) + \ln(n))}{n} = \lim_{n\rightarrow\infty}\ln(4) + \lim_{n\rightarrow\infty}\frac{\ln(n)}{n},\\
+                &\ln(L) = \ln(4) + \lim_{n\rightarrow\infty}\frac{\frac{d}{dn}(\ln(n))}{\frac{d}{dn}(n)} = \ln(4) + \lim_{n\rightarrow\infty}\frac{1}{n},\\
+                &\therefore \ln(L) = \ln(4) \implies L = 4.\\
+            \end{align*}
+
+        \sub{Q6}
+            Use the definition of convergence to prove the given limit.
+
+            \[\lim_{n\rightarrow\infty}\frac{\sin n}{n} = 0.\]
+
+            \ans Let $\epsilon \in \R_+ : ~\exists~ N : n > N \implies |a_n - L| < \epsilon \FOR L$. Given the max of $|\sin n| = 1$, $L = 0 \because |a_n|<\epsilon ~\all n > \left\lceil\frac{1}{\epsilon}\right\rceil$. 
+
+        \sub{Q7}
+            Find a formula for the nth partial sum of the series and use it to find the series' sum if the series converges.\\
+
+            The sum takes form,
+
+            \[\frac{17}{1\times2} + \frac{17}{2\times3} + \frac{17}{3\times4} + \dots + \frac{17}{n(n+1)} + \dots\]
+
+            \ans
+
+            \begin{align*}
+                &\frac{17}{1\times2} + \frac{17}{2\times3} + \frac{17}{3\times4} + \dots + \frac{17}{n(n+1)},\\
+                =&17\left( \frac{1}{1\times2} + \frac{1}{2\times3} + \frac{1}{3\times4} + \dots + \frac{1}{n(n+1)} \right),\\
+                =&\left( \frac{17}{(n+1)!} \right) = S_n.&\xmark\\
+            \end{align*}
+
+            \rans I made a very silly mistake and assumed the denominators were multiplied, though they obviously are not.
+
+            \begin{align*}
+                =&17\left( \frac{1}{1\times2} + \frac{1}{2\times3} + \frac{1}{3\times4} + \dots + \frac{1}{n(n+1)} \right),\\
+            \end{align*}
+
+            If we produce a table of values we may spot a pattern,
+
+            \begin{center}
+                \begin{tabular}{|c|c|c|c|c|c|c|}
+                    \hline
+                    $n$ & 1 & 2 & 3 & 4 & 5 & 6\\
+                    \hline
+                    $S_n$ & 17/2 & 34/3 & 51/4 & 68/5 & 85/6 & 102/7\\
+                    \hline
+                    Simplified & 17(1/2) & 17(2/3) & 17(3/4) & 17(4/5) & 17(5/6) & 17(6/7)\\
+                    \hline
+                \end{tabular}
+            \end{center}
+
+            We can now very easily see that,
+
+            \[S_n = \frac{17n}{n+1}.\]
+
+            Now to find the sum, we take the limit,
+
+            \begin{align*}
+                &\lim_{n\rightarrow\infty}\frac{17n}{n+1} = \lim_{n\tinf}\frac{17}{1} = 17.\\
+            \end{align*}
+
+        \sub{Q8}
+            Determine if the geometric series converges or diverges. If a series converges, find its sum.\\
+            
+            \[\frac{1}{3} + \frac{1}{3}^2 + \frac{1}{3}^3 + \frac{1}{3}^4 + \dots\]
+
+            \ans
+
+            \begin{align*}
+                &\frac{1}{3} + \frac{1}{3}^2 + \frac{1}{3}^3 + \frac{1}{3}^4 + \dots,\\
+                =&\frac{1}{3} + \frac{1}{9} + \frac{1}{27} + \frac{1}{243} + \dots\\
+                &\text{Lets try to find the }n\text{-th term, }a_n = \frac{1}{3^n}.\\
+                &\text{Now we take the limit,}\\
+                &\\
+                &\lim_{n\tinf} \frac{1}{3^n} = 0.\\
+            \end{align*}
+
+            The series therefore does converge to zero. \xmark\\
+
+            \rans We need either a formula for the $n$-th partial sum or we can use the fact that,
+
+            \[\sum_{n = 1}^{\infty}ar^{n-1} = \frac{a}{1 - r},\FOR |r| < 1.\]
+
+            In light of this, we can recall that a geometric series follows the pattern $a + ar + ar^2 + \dots$. We, in this case, let $a = 1/3$, and $r = 1/3$.\\
+
+            $|r|< 1$ holds, so,
+
+            \[S_{\infty} = \frac{1/3}{1 - 1/3} = 0.5.\]
+
+        \sub{Q9}
+            Use the $n$th-term test for divergence to show that the series is divergent, or state that the test is inconclusive.\\
+
+            \[\sum_{n = 1}^{\infty} \cos \left( \frac{18}{n} \right).\]
+
+            \ans Recall that the $n$-th term test asks,
+
+            \[\IF \lim_{n\tinf} a_n \neq 0 \OR \lim_{n\tinf}a_n \text{ is undefined},~ \sum_{n = 1}^{\infty}a_n \text{ diverges}.\]
+
+            In light of this, 
+
+            \[\lim_{n\tinf} \cos \left( \frac{18}{n} \right) = 1 \implies \text{ Sum diverges}.\]
+
+        \sub{Q10}
+            Determine whether the series converges or diverges. If it converges, find its sum.
+
+            \[\sum_{n = 0}^{\infty}e^{\frac{-5n}{2}}.\]
+
+            \ans We can see that the series converges because the limit tends to 0. 
+
+            \[\sum_{n = 0}^{\infty}e^{\frac{-5n}{2}} = \sum_{n = 0}^{\infty} \frac{1}{e^{\frac{5n}{2}}}.\]
+            
+            This series is indeed a geometric one, as shown, with $a = 1$, $r = 1/e^{\frac{5}{2}}$. This therefore means that,
+
+            \[S_{\infty} = \frac{a}{1 - r} = \frac{1}{1 - \frac{1}{e^{\frac{5}{2}}}} = \frac{e^{\frac{5}{2}}}{e^{\frac{5}{2}} - 1}.\]
+
+        \sub{Q11}
+
+
 
 \end{document}
