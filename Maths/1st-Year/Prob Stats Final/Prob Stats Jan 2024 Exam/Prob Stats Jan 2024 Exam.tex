@@ -213,10 +213,125 @@
         \subsection{Q5 c}
             Calculate $\po(X < x_2 | X > x_1)$.\\
 
-            \textit{Answer}: $\po(X < x_2 | X > x_1) = (\po(X < x_2)\cap \po(X > x_1))/(\po(X < x_2) \cup \po(X > x_1))$. This yields, 
+            \textit{Answer}: $\po(X < x_2 | X > x_1) = (\po(X < x_2)\cap \po(X > x_1))/(\po(X > x_1))$. This yields, $\po(X < x_2)\cap (1 - \po(X \leq x_1))/(1 - \po(X \leq x_1))$.\\
+
+            Given that $\po(X > x_1) = e^{-\lambda x_1}$, and that $\po(X < x_2) = 1 - e^{-\lambda x_2}$, we may claim,
+
+            \[\po(X < x_2 | X > x_1) = \frac{(e^{-\lambda x_1})\cap(1 - e^{-\lambda x_2})}{e^{-\lambda x_1}}.~ \xmark\]
+
+            \textit{Real answer}: We simply need to extend out current understanding. $\po(X < x_2 | X > x_1) = \po(x_1 < X < x_2)$, so we may therefore use out previous answer to claim that,
+
+            \[\frac{e^{-\lambda x_1} - e^{-\lambda x_2}}{e^{-\lambda x_1}}.\]
+
+        \subsection{Q5 d}
+            Show that the probability above, coincides with the probability that the bus arrives before time $x_2-x_1$, $\po(X < x_2-x_1)$. This means that if I go to the bus stop, the time I will need to wait till the next bus is independent of the fact that there might have been no buses in the previous hour.\\
+
+            \textit{Answer}: We must show that,
+
+            \[\po(X < x_2 - x_1) = \frac{e^{-\lambda x_1} - e^{-\lambda x_2}}{e^{-\lambda x_1}}.\]
+
+            Start by stating that $\po(X < x_2 - x_1) = \text{cdf}(x_2) - \text{cdf}(x_1) = (1 - e^{-\lambda x_2}) - (1 - e^{-\lambda x_1}) = e^{-\lambda x_1} - e^{-\lambda x_2}$. $\xmark$\\
+
+            \textit{Real answer}: It's easier, in this case, to work backwards, i.e.,
+
+            \[\frac{e^{-\lambda x_1} - e^{-\lambda x_2}}{e^{-\lambda x_1}} = e^{\lambda x_1}(e^{-\lambda x_1}e^{-\lambda x_2}) = e^0 + e{\lambda(x_1 - x_2)} = 1 - e^{\lambda(x_1 - x_2)} = \po(X< x_2 - x_1).\]
 
     \section{Question Six}
+        We need 650 Kg of cement to build an extension. This comes in sacks of 30Kg and so we purchase 21 such sacks. However due to imperfections in the manufacturing process the weight of a cement sack is 31Kg on average, with a standard deviation of 1Kg.\\
+
+        \subsection{Q6 a}
+            If $X_i$ denotes the weight of the $i$-th sack of cement, and $X$ is the sum of all $X_i$. What is the expectation, variance and standard deviation of $X$.\\
+
+            \textit{Answer}: Given that $X = \sum_{n = 1}^{i}X_n$, $\E(X) = \mu$.\\
+
+            \[\E(X) = \frac{\sum_{n = 1}^{i}X_n}{i}.\]
+
+            We may state, due to the question, 
+
+            \[\E(X) = \frac{\sum_{n = 1}^{21}X_n}{21}.\]
+
+            The variance of our random variable $X$ would be given by,
+
+            \[\text{Var}(X) = \sqrt{(X - \E(X))^2}.\]
+
+            Therefore, standard deviation would be given by,
+
+            \[\sigma = (X - \E(X))^2. ~ \xmark\]
+
+            \textit{Real answer}: $\E(X) = 21 \times 31 = 651$\\
+
+            $\text{Var}(X) = 21 \times 1^2 = 21$ so therefore $\sigma = \sqrt{21}$.
+
+        \subsection{Q6 b}
+            Use the Central Limit Theorem to estimate the probability that $X$ is greater or equal than 650Kg.\\
+
+            \textit{Answer}: We define the CLT as $Y \sim \mathcal{N}(\mu, \frac{\sigma}{\sqrt{n}})$, and so we must remember the following two formulae for $\mathcal{N}$, 
+
+            \[\text{pdf}_{\mathcal{N}}(X) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{\frac{-(x-\mu)^2}{2\sigma^2}}.\]
+
+            and,
+
+            \[\text{cdf}_{\mathcal{N}}(X) = \Phi\left( \frac{x-\mu}{\sigma} \right).\]
+
+            Given the following we may calculate our statistic using the CLT. First lets convert our information into a form which the CLT accepts.\\
+
+            We want $\po(X \geq 650)$, given $\E(X) = 651$, $\sigma = \sqrt{21}$, $n = 21$. This yields $Y\sim\mathcal{N}\left( 651, \frac{\sqrt{21}}{\sqrt{21}} \right) = Y\sim\mathcal{N}\left( 651, 1 \right)$. We therefore want $1 - \po(X < 650) = 1- \text{cdf}_{\mathcal{N}}(650)$. This produces,
+            
+            \[1 - \text{cdf}_{\mathcal{N}}(650) = \Phi\left( \frac{650 - 651}{\sqrt{21}} \right).\]
+
+            Using our table of values we get $1 - \text{cdf}_{\mathcal{N}}(650) = 1 - 0.5871 = 0.4129$.\\
+
+            \textit{Real answer}: Everything is indeed correct until the end. We get a negative for $\Phi\left( \frac{650 - 651}{\sqrt{21}} \right)$, we simply ignore or add in the $-1$. So in this case, $\Phi(-0.218218) \approx 58\%$.
 
     \section{Question Seven}
+        You flip a coin 25 times and count the number of heads, $X$.
+
+        \subsection{Q7 a}
+            Write down the \verb|R| instruction to calculate the probability that $X$ is greater than or equal to 10 and less than 15.\\
+
+            \textit{Answer}: I don't fucking know?\\
+
+            \textit{Real answer}: $\po( 10 \leq X < 15) = \po(X < 15) - \po(X < 9)$.\\
+
+            \verb|R: pbinom(14, 25, 1/2)-pbinom(8, 25, 1/2).|
+
+        \subsection{Q7 b}
+            Calculate the mean, variance and standard deviation of $X$.\\
+
+            \textit{Answer}: Given that $X$ counts heads, we may model this case with the Bernoulli distribution, given by,
+
+            \[f(k, p) = \begin{cases}
+                p&\IF k = 1,\\
+                q = 1- p&\IF k = 0.
+            \end{cases}.\]
+
+            Due to there only being two outcomes, which are all independent, we may state that,
+
+            \[\E(X) = n\po(Y = \text{ heads}) = \frac{25}{2}.\]
+
+            \[\text{Var}(X) = n\po(Y = \text{ heads})(1-\po(Y = \text{ heads})) = (25)(0.5)(0.5)=6.25.\]
+
+            \[\sigma = \sqrt{6.25}.\]
+
+        \subsection{Q7 c}
+            We now use Central Limit Theorem to approximate $X$ by a normal random variable $Y$ . Write down the R instruction to calculate the probability that $Y$ is greater than or equal to 10 and less than 15. Remember that in this case you must use the continuity adjustment.\\
+
+            \textit{Answer}: Recalling that $Y\sim\mathcal{N}(\mu, \frac{\sigma}{\sqrt{n}})$, which makes use of,
+
+            \[\text{pdf}_{\mathcal{N}}(X) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{\frac{-(x - \mu)^2}{2\sigma^2}}.\]
+
+            and,
+
+            \[\text{cdf}_{\mathcal{N}}(X) = \Phi\left( \frac{x - \mu}{\sigma} \right).\]
+
+            We want to know $\po(10 \leq Y < 15) = \po(Y < 15) - \po(Y < 9)$, which is given by,
+
+            \[\Phi\left( \frac{15 - 12.5}{\sqrt{6.25}} \right) - \Phi\left( \frac{9 - 12.5}{\sqrt{6.25}} \right),\]
+
+            \[= \Phi(0.4) - \Phi(-0.56) = \Phi(0.4) - (1 - \Phi(0.56)) = 0.6554 - (1 - 0.7123) = 0.3677.\]
+
+            This implies that $\po(10 \leq Y < 15) \approx 37\%$. $\xmark$\\
+
+            \textit{Real answer}: I forgot to account for continuity correction, where one simply minuses a half from the test value, i.e., $\po(10\leq X <15) = \po(9.5\leq Y < 14.5)$. From there the same process carries out.
 
 \end{document}

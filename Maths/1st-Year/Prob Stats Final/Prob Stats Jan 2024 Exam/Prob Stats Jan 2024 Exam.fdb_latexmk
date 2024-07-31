@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1722278035.1707 "c:/Users/Toby/Desktop/Mathematics/Maths/1st-Year/Prob Stats Final/Prob Stats Jan 2024 Exam/Prob Stats Jan 2024 Exam.tex" "Prob Stats Jan 2024 Exam.pdf" "Prob Stats Jan 2024 Exam" 1722278036.69332 0
+["pdflatex"] 1722385371.94104 "c:/Users/Toby/Desktop/Mathematics/Maths/1st-Year/Prob Stats Final/Prob Stats Jan 2024 Exam/Prob Stats Jan 2024 Exam.tex" "Prob Stats Jan 2024 Exam.pdf" "Prob Stats Jan 2024 Exam" 1722385373.55339 0
   "C:/Users/Toby/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1721955503 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Toby/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1720988123 24264286 e9deb630838263bc80694ea8c90fad99 ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/symbol/psyr.tfm" 1136772254 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -26,6 +26,7 @@
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm" 1136765053 1116 933a60c408fc0a863a92debe84b2d294 ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti10.tfm" 1136765053 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmtt10.tfm" 1136765053 768 1321e9409b4137d6fb428ac9dc956269 ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1247596666 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
@@ -41,6 +42,7 @@
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb" 1247596666 32915 7bf7720c61a5b3a7ff25b0964421c9b6 ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1247596666 32716 08e384dc442464e7285e891af9f45947 ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1247596667 37944 359e864bd06cde3b1cf57bb20757fb06 ""
+  "C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1247596667 31099 342ef5a582aacbd3346f3cf4579679fa ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1247596673 31764 459c573c03a4949a528c2cc7f557e217 ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1247596673 34694 870c211f62cb72718a00e353f14f254d ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb" 1136853348 45955 6dfcb282cf470ceb18d57d017b7898d6 ""
@@ -97,12 +99,12 @@
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1718356376 14067 1383bd6ee23ab18ae0e796155404deb7 ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "C:/Users/Toby/Desktop/Mathematics/math-macros.sty" 1722209151 967 84df90737929a3de98b72ec7f9a0bb37 ""
-  "Prob Stats Jan 2024 Exam.aux" 1722278036 1819 2d730f20a1df3b1f5a7585b89a46c5ee "pdflatex"
-  "Prob Stats Jan 2024 Exam.out" 1722278036 1418 81b49c9bd471ef61c17159d4642042ee "pdflatex"
-  "Prob Stats Jan 2024 Exam.tex" 1722278034 10563 5cd7b1d0db4f699e93e45737ce43993c ""
-  "Prob Stats Jan 2024 Exam.toc" 1722278036 1042 a15ad0ef57c7067ed2c504d87bb1003c "pdflatex"
-  "c:/Users/Toby/Desktop/Mathematics/Maths/1st-Year/Prob Stats Final/Prob Stats Jan 2024 Exam/Prob Stats Jan 2024 Exam.tex" 1722278034 10563 5cd7b1d0db4f699e93e45737ce43993c ""
+  "C:/Users/Toby/Desktop/Mathematics/math-macros.sty" 1722381179 998 b05dedf88a958d657482c8fdf3f14a47 ""
+  "Prob Stats Jan 2024 Exam.aux" 1722385373 2485 4296c091b19d5d2408eb920109ba2904 "pdflatex"
+  "Prob Stats Jan 2024 Exam.out" 1722385373 1904 b11b87bef5969f2a1dbc1d84200f2de0 "pdflatex"
+  "Prob Stats Jan 2024 Exam.tex" 1722385370 17129 5a3bf420ef7aa29a1f51996b4ef2fbb6 ""
+  "Prob Stats Jan 2024 Exam.toc" 1722385373 1462 9e82e8641513d505a5fe8ee054f9a537 "pdflatex"
+  "c:/Users/Toby/Desktop/Mathematics/Maths/1st-Year/Prob Stats Final/Prob Stats Jan 2024 Exam/Prob Stats Jan 2024 Exam.tex" 1722385370 17129 5a3bf420ef7aa29a1f51996b4ef2fbb6 ""
   (generated)
   "Prob Stats Jan 2024 Exam.aux"
   "Prob Stats Jan 2024 Exam.log"
