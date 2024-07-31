@@ -1,7 +1,7 @@
-PWD c:\Users\Toby\Desktop\Mathematics\Maths\1st-Year\Analysis Final
+PWD c:\Users\Toby\Desktop\Mathematics\Maths\1st-Year\Analysis Final\Analysis Work Sheet Final
 INPUT C:\Users\Toby\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Toby\Desktop\Mathematics\Maths\1st-Year\Analysis Final\AnalysisWorkSheet.tex
-OUTPUT AnalysisWorkSheet.log
+INPUT c:\Users\Toby\Desktop\Mathematics\Maths\1st-Year\Analysis Final\Analysis Work Sheet Final\Analysis Work Sheet Final.tex
+OUTPUT Analysis Work Sheet Final.log
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
@@ -32,6 +32,9 @@ INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\Toby\Desktop\Mathematics\math-macros.sty
+INPUT C:\Users\Toby\Desktop\Mathematics\math-macros.sty
+INPUT C:\Users\Toby\Desktop\Mathematics\math-macros.sty
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\pifont.sty
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\pifont.sty
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\upzd.fd
@@ -42,8 +45,6 @@ INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\upsy.fd
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\upsy.fd
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\upsy.fd
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
-INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\bbding\bbding.sty
-INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\bbding\bbding.sty
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
@@ -103,10 +104,10 @@ INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniq
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\AnalysisWorkSheet.aux
-INPUT .\AnalysisWorkSheet.aux
-INPUT AnalysisWorkSheet.aux
-OUTPUT AnalysisWorkSheet.aux
+INPUT .\Analysis Work Sheet Final.aux
+INPUT .\Analysis Work Sheet Final.aux
+INPUT Analysis Work Sheet Final.aux
+OUTPUT Analysis Work Sheet Final.aux
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
@@ -121,14 +122,14 @@ INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT .\AnalysisWorkSheet.out
-INPUT .\AnalysisWorkSheet.out
-INPUT AnalysisWorkSheet.out
-INPUT AnalysisWorkSheet.out
-OUTPUT AnalysisWorkSheet.pdf
-INPUT .\AnalysisWorkSheet.out
-INPUT .\AnalysisWorkSheet.out
-OUTPUT AnalysisWorkSheet.out
+INPUT .\Analysis Work Sheet Final.out
+INPUT .\Analysis Work Sheet Final.out
+INPUT Analysis Work Sheet Final.out
+INPUT Analysis Work Sheet Final.out
+INPUT .\Analysis Work Sheet Final.out
+INPUT .\Analysis Work Sheet Final.out
+OUTPUT Analysis Work Sheet Final.out
+OUTPUT Analysis Work Sheet Final.pdf
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
@@ -156,10 +157,14 @@ INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symb
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT .\Analysis Work Sheet Final.toc
+INPUT .\Analysis Work Sheet Final.toc
+INPUT Analysis Work Sheet Final.toc
+OUTPUT Analysis Work Sheet Final.toc
 INPUT C:\Users\Toby\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT AnalysisWorkSheet.aux
-INPUT .\AnalysisWorkSheet.out
-INPUT .\AnalysisWorkSheet.out
+INPUT Analysis Work Sheet Final.aux
+INPUT .\Analysis Work Sheet Final.out
+INPUT .\Analysis Work Sheet Final.out
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Toby\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb

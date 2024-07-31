@@ -1,8 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1722208577.13837 "c:/Users/Toby/Desktop/Mathematics/Maths/1st-Year/Analysis Final/AnalysisWorkSheet.tex" "AnalysisWorkSheet.pdf" "AnalysisWorkSheet" 1722208578.68462 0
-  "AnalysisWorkSheet.aux" 1722208578 616 a9382731dd8b3efde30589e606ecfe8a "pdflatex"
-  "AnalysisWorkSheet.out" 1722208578 514 6a8121773ac2d9693a94cbe2420dd014 "pdflatex"
-  "AnalysisWorkSheet.tex" 1722208574 857 d42a705872d0822fa4b9766d108a3b9d ""
+["pdflatex"] 1722440277.48373 "c:/Users/Toby/Desktop/Mathematics/Maths/1st-Year/Analysis Final/Analysis Work Sheet Final/Analysis Work Sheet Final.tex" "Analysis Work Sheet Final.pdf" "Analysis Work Sheet Final" 1722440278.84731 0
+  "Analysis Work Sheet Final.aux" 1722440278 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
+  "Analysis Work Sheet Final.out" 1722440278 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Analysis Work Sheet Final.tex" 1722440271 549 e5584125addc6bfe6dc50f7927efd76c ""
+  "Analysis Work Sheet Final.toc" 1722440278 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "C:/Users/Toby/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1721955503 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Toby/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1720988123 24264286 e9deb630838263bc80694ea8c90fad99 ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/symbol/psyr.tfm" 1136772254 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -58,7 +59,6 @@
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/tex/latex/base/atbegshi-ltx.sty" 1719393830 2963 e56732bbb93cfa019febfd0c7eaf1d21 ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/tex/latex/base/atveryend-ltx.sty" 1719393830 2378 05fbb4f2b23b0e142f8cd3440c37e72e ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo" 1719393830 8448 358bf3de18513f057a13bdc6e6770c41 ""
-  "C:/Users/Toby/AppData/Local/Programs/MiKTeX/tex/latex/bbding/bbding.sty" 1469024579 7382 9b2f9a70c30e88d8bba0d20fcca8b94e ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty" 1601897756 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg" 1578053545 1104 7ac475a4e3466b0b43e138e9356bda83 ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty" 1578053545 42759 9cf6c5257b1bc7af01a58859749dd37a ""
@@ -83,10 +83,12 @@
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1718356376 14067 1383bd6ee23ab18ae0e796155404deb7 ""
   "C:/Users/Toby/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/Toby/Desktop/Mathematics/Maths/1st-Year/Analysis Final/AnalysisWorkSheet.tex" 1722208574 857 d42a705872d0822fa4b9766d108a3b9d ""
+  "C:/Users/Toby/Desktop/Mathematics/math-macros.sty" 1722438733 1185 0476f70a1d0b9692a1c9d6af461ac1d3 ""
+  "c:/Users/Toby/Desktop/Mathematics/Maths/1st-Year/Analysis Final/Analysis Work Sheet Final/Analysis Work Sheet Final.tex" 1722440271 549 e5584125addc6bfe6dc50f7927efd76c ""
   (generated)
-  "AnalysisWorkSheet.aux"
-  "AnalysisWorkSheet.log"
-  "AnalysisWorkSheet.out"
-  "AnalysisWorkSheet.pdf"
+  "Analysis Work Sheet Final.aux"
+  "Analysis Work Sheet Final.log"
+  "Analysis Work Sheet Final.out"
+  "Analysis Work Sheet Final.pdf"
+  "Analysis Work Sheet Final.toc"
   (rewritten before read)

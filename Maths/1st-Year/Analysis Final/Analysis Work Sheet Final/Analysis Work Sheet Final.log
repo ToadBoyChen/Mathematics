@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.14)  29 JUL 2024 00:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.14)  31 JUL 2024 16:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Toby/Desktop/Mathematics/Maths/1st-Year/Analysis Final/AnalysisWorkSheet.tex"
-(c:/Users/Toby/Desktop/Mathematics/Maths/1st-Year/Analysis Final/AnalysisWorkSheet.tex
+**"c:/Users/Toby/Desktop/Mathematics/Maths/1st-Year/Analysis Final/Analysis Work Sheet Final/Analysis Work Sheet Final.tex"
+(c:/Users/Toby/Desktop/Mathematics/Maths/1st-Year/Analysis Final/Analysis Work Sheet Final/Analysis Work Sheet Final.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
 (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -118,7 +118,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen157
 \Gm@layoutvoffset=\dimen158
 \Gm@dimlist=\toks23
- (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\pifont.sty
+ (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:/Users/Toby/Desktop/Mathematics/math-macros.sty (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\pifont.sty
 Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
 LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
  (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
@@ -127,9 +127,7 @@ File: upzd.fd 2001/06/04 font definitions for U/pzd.
 LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
  (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
-)) (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/bbding\bbding.sty
-Package: bbding 1999/04/15 v1.01 Dingbats symbols
-) (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+))) (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
 \col@sep=\dimen159
 \ar@mcellbox=\box54
@@ -245,32 +243,32 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip56
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 23.
+Package hyperref Info: Option `colorlinks' set `true' on input line 14.
  (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count295
 \l__pdf_internal_box=\box56
-) (AnalysisWorkSheet.aux)
-\openout1 = `AnalysisWorkSheet.aux'.
+) (Analysis Work Sheet Final.aux)
+\openout1 = `"Analysis Work Sheet Final.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -328,42 +326,46 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 \makeMPintoPDFobject=\count301
 \everyMPtoPDFconversion=\toks26
 )) (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 30.
- (AnalysisWorkSheet.out) (AnalysisWorkSheet.out)
+Package hyperref Info: Link coloring ON on input line 21.
+ (Analysis Work Sheet Final.out) (Analysis Work Sheet Final.out)
 \@outlinefile=\write3
-\openout3 = `AnalysisWorkSheet.out'.
+\openout3 = `"Analysis Work Sheet Final.out"'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
  (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
  (C:\Users\Toby\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+) (Analysis Work Sheet Final.toc)
+\tf@toc=\write4
+\openout4 = `"Analysis Work Sheet Final.toc"'.
+
+
 
 [1
 
-{C:/Users/Toby/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (AnalysisWorkSheet.aux)
+{C:/Users/Toby/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (Analysis Work Sheet Final.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
  ***********
-Package rerunfilecheck Info: File `AnalysisWorkSheet.out' has not changed.
-(rerunfilecheck)             Checksum: 6A8121773AC2D9693A94CBE2420DD014;514.
+Package rerunfilecheck Info: File `"Analysis Work Sheet Final".out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10153 strings out of 473903
- 155748 string characters out of 5727051
- 1928908 words of memory out of 5000000
- 32898 multiletter control sequences out of 15000+600000
+ 10033 strings out of 473903
+ 154562 string characters out of 5727051
+ 1927908 words of memory out of 5000000
+ 32777 multiletter control sequences out of 15000+600000
  564308 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,321b,440s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,79p,355b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Toby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on AnalysisWorkSheet.pdf (1 page, 48560 bytes).
+Output written on "Analysis Work Sheet Final.pdf" (1 page, 42693 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 6 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 32 PDF objects out of 1000 (max. 8388607)
+ 3 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
