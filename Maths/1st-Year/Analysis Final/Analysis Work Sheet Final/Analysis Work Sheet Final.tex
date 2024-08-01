@@ -202,6 +202,47 @@
 
         \sub{Q11}
 
+    \section{Integral Calculus}
+        \sub{Q46}
+            Evaluate the integral,
 
+            \[\int_{-2}^{0}\int_{-2}^{2} 7x + 8y + 5 ~ dx~ dy.\]
+
+            \ans 
+
+            \begin{align*}
+                &\int_{-2}^{0}\int_{-2}^{2} 7x + 8y + 5 ~ dx~ dy = \int_{-2}^{0} [7xy + 4y^2 + 5y]_{-2}^{2} ~ dy,\\
+                =&\int_{-2}^{0} 28y + 8y^2 + 10y ~ dy = \left[14y^2 + \frac{8y^2}{3} + 5y^2\right]_{-2}^{0},\\
+                =&14(2)^2 + \frac{8(2)^2}{3} + 5(2)^2 = 14(4) + \frac{32}{3} + 20,\\
+                =&\frac{260}{3}. &\xmark\\
+            \end{align*}
+
+            \rans I accidentally did two integrations by $y$. To redo, simply integrate by $x$ then $y$.
+            
+            \begin{align*}
+                &\int_{-2}^{0}\int_{-2}^{2} 7x + 8y + 5 ~ dx~ dy = \int_{-2}^{0} \left[ \frac{7x^2}{2} + 8xy + 5x \right]_{-2}^{2} ~ dy,\\
+                =&\int_{-2}^{0} \frac{7(2)^2}{2} + 8(2)y + 5(2) - \left( \frac{7(-2)^2}{2} + 8(-2)y + 5(-2) \right) ~ dy,\\
+                =&\int_{-2}^{0} 24 + 16y - (4 - 16y) ~ dy = \int_{-2}^{0} 20 + 32y ~ dy = \left[ 20y + 16y^2 \right]_{-2}^{0},\\
+                =&-(20(-2) + 16(-2)^2) = -(-40 + 16(4)) = -24.\\
+            \end{align*}
+
+        \sub{Q47}
+        Evaluate the double integral over the given region $R$.
+
+        \[\int\int_{R} 9y^2 -6x ~ dA, \FOR R: 0 \leq x \leq 3, 0 \leq y \leq 2.\]
+
+        \ans 
+
+        \begin{align*}
+            &\int\int_{R} 9y^2 -6x ~ dA = \int_{0}^{3}\int_{0}^{2} 9y^2 -6x ~ dx ~ dy = \int_{0}^{3} \left[ 9y^2x - 3x^2 \right]_{0}^{2} ~ dy\\
+            =&\int_{0}^{3} 18y^2 - 12 ~ dy = \left[ \frac{18y^3}{3} - 12y \right]_{0}^{3} = \frac{18(3)^3}{3} - 12(3) = 126.\\
+        \end{align*}
+
+        \rans The substitution of the limits is wrong,
+
+        \begin{align*}
+            &\int\int_{R} 9y^2 -6x ~ dA = \int_{0}^{2}\int_{0}^{3} 9y^2 -6x ~ dx ~ dy = \int_{0}^{2} \left[ 9y^2x - 3x^2 \right]_{0}^{3} ~ dy\\
+            =&\int_{0}^{2} 27y^2 - 27 ~ dy = \left[ \frac{27y^3}{3} - 27y \right]_{0}^{2} = \frac{27(2)^3}{3} - 27(2) = 18.\\
+        \end{align*}
 
 \end{document}

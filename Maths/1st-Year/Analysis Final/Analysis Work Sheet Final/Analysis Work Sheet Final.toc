@@ -10,3 +10,6 @@
 \contentsline {subsection}{\numberline {1.9}Q9}{5}{subsection.1.9}%
 \contentsline {subsection}{\numberline {1.10}Q10}{5}{subsection.1.10}%
 \contentsline {subsection}{\numberline {1.11}Q11}{5}{subsection.1.11}%
+\contentsline {section}{\numberline {2}Integral Calculus}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Q46}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Q47}{6}{subsection.2.2}%
