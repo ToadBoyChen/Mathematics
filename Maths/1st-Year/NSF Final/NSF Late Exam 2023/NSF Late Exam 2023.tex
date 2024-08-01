@@ -1,0 +1,64 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{geometry}
+\usepackage{microtype}
+\hbadness=99999
+\input{C:/Users/Toby/Desktop/Mathematics/math-macros.sty} %Download the macros file locally onto machine.
+\usepackage{array}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\geometry{a4paper, margin=1.6in}
+
+\title{NSF Late Summer Exam 2023}
+\author{by Toby Chen}
+\date{\today}
+
+\begin{document}
+
+    \maketitle
+
+    \tableofcontents
+
+    \section{Question 1}
+        Let $A = \left\{ 1,3,5,6,8 \right\}$, and let $B = \left\{ 2,3,4,8,9 \right\}$ 
+
+        \sub{Q1 a}
+            $A\cap B$.\\
+
+            \ans $A\cap B = \left\{ 3, 8 \right\}$
+
+        \sub{Q1 b}
+            $\left\{ b + 2: b\in B \AND b-2 \notin A \right\}$.\\
+
+            \ans $\left\{ 4, 6, 11 \right\}$
+
+        \sub{Q1 c}
+            The number of 3 element subsets of $B$.\\
+
+            \ans For each element, there are 3 possible arrangements (not including order - order is of no concern), and in $B$ there are 5 elements so therefore $3\times 5 = 15$. \xmark\\
+
+            \rans The problem with my method is that the number of possible sets decrease as we move along,
+
+            \begin{align*}
+                \text{Given }&B=\left\{ 2,3,4,8,9 \right\},\\
+                \text{Taking }2\text{ first:}&\left\{ 2,3,4 \right\}, \left\{ 2,4,8 \right\}, \left\{ 2,8,9 \right\}, \left\{ 2, 4, 9 \right\}, \left\{ 2,3,9 \right\}, \left\{ 2,3,8 \right\},\\
+                \text{Taking }3\text{ first:}&\left\{ 3,4,8 \right\}, \left\{ 3,8,9 \right\}, \left\{ 3,4,9 \right\},\\
+                \text{Taking }4\text{ first:}&\left\{ 4,8,9 \right\}.\\
+                &\text{10 3-elemented sets possible}.\\
+            \end{align*}
+
+        \sub{Q1 d}
+            The number of proper subsets of $B$.\\
+
+            \ans The number of proper subsets is also $\power(B)$. There are 5 1-elemented sets, 20 2-elemented sets, 15 3-elemented sets, 10 4-elemented subsets, so therefore $\power(B) = 5 + 20 + 15 + 10 = 60.$ \xmark\\
+
+            \rans
+
+\end{document}

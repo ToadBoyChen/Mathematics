@@ -1,0 +1,1 @@
+{"rule":"SO_THEREFORE","sentence":"^\\QFor each element, there are 3 possible arrangements (not including order - order is of no concern), and in \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q there are 5 elements so therefore \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
